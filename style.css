@@ -1,0 +1,86 @@
+body {
+    font-family: Poppins;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+
+
+.start-journey-div {
+
+    display: flex;
+}
+
+.link_icon a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.link_icon i {
+    padding: 0 10px;
+}
+
+
+.hulf-width {
+    width: 40%;
+    margin-left: 60px;
+}
+
+.influencer {
+    font-weight: bolder;
+}
+
+.hulf-width img {
+    width: 85%;
+    background-image: url(images/Circle\ design.svg);
+
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: 0 0;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: .7em;
+}
+
+.collections-section {
+    text-align: center;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 60px;
+}
+
+.collection {
+
+    text-align: left;
+}
+
+.collection img {
+
+    width: 250px;
+    height: 216px
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
