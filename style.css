@@ -188,8 +188,38 @@ footer{
 .start-journey-div {
 
     display: block;
+ 
 
 }
+
+.hulf-width {
+    width: 40%;
+    margin-left: 06px;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 15px;
+    margin: 0;
+}
+.logos img{
+    margin-right: 10px;
+    height: 15px;
+    width: 60px;
+}
+
+.collections {
+    display: block;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 70%; */
+}
+
 
 }
 
