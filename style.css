@@ -25,7 +25,10 @@ body {
     margin-left: 10px;
     font-size: 20px;
 }
-
+.icondiv{
+    display: flex;
+    margin-right: 20px;
+}
 
 .link_icon  {
     
@@ -211,9 +214,7 @@ margin-top: 30px;
 
 @media only screen and (max-width:688px) {
 
- body{
-     width: 100%;
- }
+ 
     .header {
         display: block;
         margin: 0;
@@ -222,20 +223,18 @@ margin-top: 30px;
     .header-title{
           margin-left: 10px;
     }
-    .link_icon  {
-    
-        text-align: left;
-    }
 
-    .link_icon a {
-        padding-right: 5px;
-         
+    .link_icon{
+        display: none;
     }
-    
-    .link_icon i {
-        padding-left: 5px;
+    .header{
+        display: flex;
     }
-    
+    .threedot{
+        display: inline;
+    }
+  
+
 .start-journey-div {
 
     display: block;
@@ -296,7 +295,9 @@ margin-bottom: 30px;
 
 }
 
-
+.last-camara{
+    text-align: center;
+}
 
 .hulf-width {
     width: 40%;
