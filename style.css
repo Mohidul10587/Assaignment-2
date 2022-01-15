@@ -2,6 +2,8 @@ body {
     font-family: Poppins;
     font-size: .85em;
     background-color: white;
+    margin: 0;
+    padding: 0;
  
 }
 
@@ -9,7 +11,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 70px -200px 50px 60px;
+    margin: 0 -200px 50px 0;
+    padding-left: 20px;
+    background-color:#E02C6D;
+    color: white;
    
 }
 
@@ -27,7 +32,7 @@ body {
 .link_icon a {
     padding-left: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .link_icon i {
@@ -40,10 +45,8 @@ body {
     margin-left: 60px;
 }
 
-.influencer {
-    font-weight: bolder;
-}
-.influencer h1{
+
+.heaing-style{
    font-size: 40px;
    font-weight: bolder;
   
@@ -114,7 +117,7 @@ body {
 
 .collection img {
 
-    width: 200px;
+    width: 180px;
     height: 166px
 }
 .collections-detail > .icon,.bottom-para,span{
@@ -137,6 +140,14 @@ margin-top: 30px;
     text-decoration: none;
     color: #E02C6D;
 }
+
+.last-camara-div {
+
+    display: flex;
+
+}
+
+
 footer{
     margin-top: 30px;
 }
@@ -166,7 +177,8 @@ footer{
  
     .header {
         display: block;
-        margin: 0;   
+        margin: 0;
+        padding: 5px;   
     }
     .header-title{
           margin-left: 10px;
@@ -202,7 +214,7 @@ footer{
     grid-template-columns: repeat(3,1fr);
     
     grid-row-gap: 10px;
-    margin: 0;
+    margin-left: 30px;
 }
 .logos img{
     margin-right: 5px;
@@ -214,11 +226,11 @@ footer{
 }
 
 .collections-section-title{
-    margin-left: -50px;
+    margin-left: -15px;
 }
 .collections {
     display: block;
-    margin-right: 115px;
+    margin-right: 72px;
     margin-top:10px;
   
 }
@@ -229,9 +241,43 @@ footer{
   
 }
 
-/* -----------------------------------------------
-start------------------------------------------ */
 
+.see-more{
+    margin-top: 30px;
+        margin-right: 130px;
+      text-align: right;
+      
+    }
+    
+/* -----------------------------------------------
+last-camara-div------------------------------------------ */
+
+.last-camara-div {
+margin-top: 20px;
+    display: block;
+
+}
+
+
+
+.hulf-width {
+    width: 40%;
+    margin-left: 60px;
+}
+
+
+
+footer{
+    margin-top: 30px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+
+
+}
 
 
 
@@ -239,6 +285,36 @@ start------------------------------------------ */
 }
 
 @media only screen and (min-width:689px) and (max-width:992px){
+
+.header{
+    background-color:#E02C6D;
+}
+
+.logos img{
+    margin-right: 5px;
+    height: 15px;
+    width: 40px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
 
 
 }
