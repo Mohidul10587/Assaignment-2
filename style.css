@@ -1,13 +1,16 @@
 body {
     font-family: Poppins;
+    font-size: .85em;
+    background-color: white;
+ 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 60px;
-    margin-bottom: 50px;
+    margin: 70px -200px 50px 60px;
+   
 }
 
 
@@ -15,15 +18,20 @@ body {
 .start-journey-div {
 
     display: flex;
-}
 
+}
+.link_icon  {
+    
+    text-align: right;
+}
 .link_icon a {
-    padding: 0 10px;
+    padding-left: 10px;
     text-decoration: none;
+    color: black;
 }
 
 .link_icon i {
-    padding: 0 10px;
+    padding-left: 10px;
 }
 
 
@@ -35,13 +43,18 @@ body {
 .influencer {
     font-weight: bolder;
 }
+.influencer h1{
+   font-size: 40px;
+   font-weight: bolder;
+  
+}
 
 .hulf-width img {
     width: 85%;
     background-image: url(images/Circle\ design.svg);
 
     background-repeat: no-repeat;
-    background-size: 200px 200px;
+    background-size: 500px 500px;
     background-position: 0 0;
 }
 
@@ -55,31 +68,74 @@ body {
     font-size: .7em;
 }
 
-.collections-section {
+.logos{
+    text-align: center;
+    border: 1px solid gainsboro ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    
+    
+}
+.logos img{
+    margin-right: 20px;
+    height: 25px;
+    width: 80px;
+}
+.hh{
+    display: flex;
+   justify-content: center;
+}
+.collections-section{
+    margin-top: 70px;
+}
+.collections-section-title {
     text-align: center;
 }
 
 .collections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-content: center;
     margin-left: 60px;
+    margin-top: 20px;
+    width: 70%;
 }
 
 .collection {
 
     text-align: left;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
 .collection img {
 
-    width: 250px;
-    height: 216px
+    width: 200px;
+    height: 166px
+}
+.collections-detail > .icon,.bottom-para,span{
+    font-size: 12px;
 }
 .filled{
     color: orange;
 }
 .empty{
     color: #AEAEAE;
+}
+.see-more{
+    
+    font-size: 30px;
+}
+footer{
+    margin-top: 30px;
 }
 .footer {
     background-color: black;
