@@ -51,11 +51,7 @@ body {
 
 .hulf-width img {
     width: 85%;
-    background-image: url(images/Circle\ design.svg);
-
-    background-repeat: no-repeat;
-    background-size: 500px 500px;
-    background-position: 0 0;
+  
 }
 
 .btn1 {
@@ -131,8 +127,15 @@ body {
     color: #AEAEAE;
 }
 .see-more{
-    
-    font-size: 30px;
+margin-top: 30px;
+    margin-right: 130px;
+  text-align: right;
+  
+}
+
+.see-more a{
+    text-decoration: none;
+    color: #E02C6D;
 }
 footer{
     margin-top: 30px;
@@ -145,3 +148,53 @@ footer{
     padding-bottom: 50px;
 
 }
+
+
+
+
+
+/* -------------------------
+--------For Mobile ---------
+----------------------------*/
+
+
+
+
+
+@media only screen and (max-width:688px) {
+
+ 
+    .header {
+        display: block;
+        margin: 0;   
+    }
+    .header-title{
+          margin-left: 10px;
+    }
+    .link_icon  {
+    
+        text-align: left;
+    }
+
+    .link_icon a {
+        padding-right: 05px;
+         
+    }
+    
+    .link_icon i {
+        padding-right: 05px;
+    }
+    
+.start-journey-div {
+
+    display: block;
+
+}
+
+}
+
+@media only screen and (min-width:689px) and (max-width:992px){
+
+
+}
+
