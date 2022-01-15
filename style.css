@@ -223,15 +223,29 @@ margin-top: 30px;
           margin-left: 10px;
     }
 
+    .hulf-width img {
+    width: 7
+        100
+        
+       
+%;
+    
+  
+}
+    
     .link_icon{
         display: none;
     }
     .header{
         display: flex;
     }
-    .threedot{
-        display: inline;
-    }
+ 
+     .hulf-width img {
+    width: 100%;
+    
+  
+}
+
   
 
 .start-journey-div {
